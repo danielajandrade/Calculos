@@ -12,10 +12,16 @@ namespace Calculos
     /// </summary>
     internal class Aritmetica
     {
-
+        /// <summary>
+        /// Operação soma
+        /// </summary>
+        /// <returns>Retorna o resultado da soma</returns>
         public int Somar (int x, int y)
         { return x + y; }
-
+        /// <summary>
+        /// Operação subtrair
+        /// </summary>
+        /// <returns>Retorna o resultado da subtração</returns>
         public int Subtrair (int x, int y)
         {
             return x - y;
