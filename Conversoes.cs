@@ -8,10 +8,18 @@ using static Calculos.Aritmetica;
 namespace Calculos
 {
 
-    
-    
+   
+
     internal class Conversoes
     {
+
+
+        public enum ConversaoTemperatura
+        {
+            Nulo = 0,
+            CelsiusFahrenheit,
+            FahrenheitCelsius
+        }
         /// <summary>
         /// Conversão de temperaturas.
         /// </summary>
