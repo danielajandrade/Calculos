@@ -28,19 +28,19 @@ namespace Calculos
         /// Operação soma
         /// </summary>
         /// <returns>Retorna o resultado da soma</returns>
-        public int Somar (int x, int y)
+        public static int Somar (int x, int y)
         { return x + y; }
         /// <summary>
         /// Operação subtrair
         /// </summary>
         /// <returns>Retorna o resultado da subtração</returns>
-        public int Subtrair (int x, int y)
+        public static int Subtrair (int x, int y)
         {
             return x - y;
         }
 
 
-        public double ConverterTemperatura(ConversaoTemperatura conversao, double temperatura)
+        public static double ConverterTemperatura(ConversaoTemperatura conversao, double temperatura)
         {
             if (conversao == ConversaoTemperatura.CelsiusFahrenheit)
             {
